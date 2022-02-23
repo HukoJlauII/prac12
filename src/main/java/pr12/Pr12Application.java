@@ -1,0 +1,17 @@
+package pr12;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import javax.annotation.PostConstruct;
+
+@SpringBootApplication
+public class Pr12Application {
+
+	public static void main(String[] args) {
+
+		SpringApplication.run(Pr12Application.class, args);
+
+	}
+
+}
